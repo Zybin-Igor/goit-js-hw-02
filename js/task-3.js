@@ -37,7 +37,7 @@ console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!")); // tr
 console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
 /*----------Решение тернарным оператором------------ */
-
+/*
 function checkForSpam(message) {
 	const lowerMessage = message.toLowerCase();
 	return lowerMessage.includes('spam') || lowerMessage.includes('sale');
@@ -49,3 +49,4 @@ console.log(checkForSpam("Amazing SalE, only tonight!")); // true
 console.log(checkForSpam("Trust me, this is not a spam message")); // true
 console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!")); // true
 console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
+*/
